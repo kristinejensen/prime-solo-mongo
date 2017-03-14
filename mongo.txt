@@ -28,6 +28,7 @@ not sure
 db.orders.find({$and: [{ "lineItems.quantity": { $lt: 50 }}, {"lineItems.quantity": {$gt: 5}}]})
 
 // 8. Update one of your line items to 42.99. HINT: Look at dot notation
+not sure
 
 // 9. Remove one of your orders.
 db.orders.remove({ orderTotal: 10})
